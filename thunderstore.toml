@@ -4,7 +4,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "nightkosh"
 name = "BlindCartographer"
-versionNumber = "1.0.0"
+versionNumber = "1.0.1"
 description = "Quality-of-life mod that enhances navigation, especially in "No Map" mode."
 websiteUrl = "https://github.com/NightKosh/BlindCartographer"
 containsNsfwContent = false

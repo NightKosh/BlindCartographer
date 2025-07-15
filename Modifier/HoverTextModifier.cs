@@ -4,7 +4,8 @@ namespace BlindCartographer.Modifier
     {
         public static void AddHoverText<T>(T __instance, ref string __result)
         {
-            if (__instance == null && !(BlindCartographer._enableHotKey.Value && BlindCartographer._showHotKeyText.Value)) return;
+            if (!(BlindCartographer._enableHotKey.Value && BlindCartographer._showHotKeyText.Value) || 
+                __instance == null) return;
             __result += $"\n[<color=yellow>LEFT ALT + {BlindCartographer.ConfigPinKey.Value}</color>] Pin to the map";
         }
     }
