@@ -5,7 +5,7 @@
 ## Features
 
 - **Quick Pin Placement**  
-  Add pins to the world map without opening the map UI. Just look at an object (like a resource node, firepit, ore, dungeon entrance, etc.) and press `LEFT Alt + T` to create a pin using its name(or custom text by your choice).
+  Add pins to the world map without opening the map UI. Just look at an object (like a resource node, firepit, ore, dungeon entrance, etc.) and press `LEFT Alt + Y` to create a pin using its name(or custom text by your choice).
 
 - **Map Access via Cartography Table**  
   In "No Map" mode, the cartography table becomes your only access point to the world map — just like a true adventurer would rely on maps at camp.

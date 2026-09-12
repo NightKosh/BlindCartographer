@@ -12,7 +12,7 @@ namespace BlindCartographer
     {
         private const string PluginGuid = "nightkosh." + PluginName;
         private const string PluginName = "BlindCartographer";
-        private const string PluginVersion = "1.0.1";
+        private const string PluginVersion = "1.0.2";
         public static ConfigEntry<KeyCode> ConfigPinKey;
         private static ConfigEntry<bool> _modEnabled;
         public static ConfigEntry<bool> _enableCartographyTableInNoMapMode;
@@ -32,7 +32,7 @@ namespace BlindCartographer
             _enableCartographyTableInNoMapMode = Config.Bind("Map", "EnableCartographyTableInNoMapMode", true, "Enable cartography table in no map mode.");
             _enableHotKey = Config.Bind("Hotkeys", "EnableHotKey", true, "Enable hot key.");
             _showHotKeyText = Config.Bind("Hotkeys", "ShowHotKeyText", true, "Show hot key text.");
-            ConfigPinKey = Config.Bind("Hotkeys", "HotKey", KeyCode.T,
+            ConfigPinKey = Config.Bind("Hotkeys", "HotKey", KeyCode.Y,
                 "Key to press with LEFT ALT to pin hovered object to the map");
             if (_modEnabled.Value)
             {
@@ -106,7 +106,7 @@ namespace BlindCartographer
 
             Player.m_localPlayer?.Message(
                 MessageHud.MessageType.TopLeft, 
-                $"Pin `{pinName}` added!");
+                $"Pin `{pinName}` added!", 0, null, false);
         }
     }
 }
