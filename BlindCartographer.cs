@@ -12,7 +12,7 @@ namespace BlindCartographer
     {
         private const string PluginGuid = "nightkosh." + PluginName;
         private const string PluginName = "BlindCartographer";
-        private const string PluginVersion = "1.0.2";
+        private const string PluginVersion = "1.0.3";
         public static ConfigEntry<KeyCode> ConfigPinKey;
         private static ConfigEntry<bool> _modEnabled;
         public static ConfigEntry<bool> _enableCartographyTableInNoMapMode;

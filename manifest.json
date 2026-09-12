@@ -1,7 +1,7 @@
 {
   "name": "BlindCartographer",
   "author": "NightKosh",
-  "version_number": "1.0.2",
+  "version_number": "1.0.3",
   "website_url": "https://github.com/NightKosh/BlindCartographer",
   "description": "Quality-of-life mod that enhances navigation, especially in \"No Map\" mode.",
   "dependencies": [
